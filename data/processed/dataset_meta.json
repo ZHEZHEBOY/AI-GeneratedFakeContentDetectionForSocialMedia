@@ -1,0 +1,9 @@
+{
+  "n_samples": 10000,
+  "n_real": 5000,
+  "n_fake": 5000,
+  "image_shape": [
+    64,
+    64
+  ]
+}

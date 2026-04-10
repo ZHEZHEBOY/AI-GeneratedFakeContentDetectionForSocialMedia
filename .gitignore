@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch / ML model weights
+*.pth
+*.pt
+*.ckpt
+
+# sklearn/pickle models
+*.pkl
+*.joblib
+
+# numpy arrays (features, processed data)
+*.npy
+*.npz
+
+# Large data — 完整上传（~430MB）
+# data/raw/          CIFAKE 图像（~360MB）
+# data/processed/     数值化数据（~45MB）
+# checkpoints/        模型权重（~20MB）
+# results/            实验结果图表和表格
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# WorkBuddy (project memory)
+.workbuddy/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Large archives (GitHub single file limit is 100MB)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
