@@ -1,4 +1,5 @@
 """快速测试 SD 模型是否可用"""
+
 import os
 os.environ['HF_HUB_OFFLINE'] = '1'
 
