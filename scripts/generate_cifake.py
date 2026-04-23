@@ -1,4 +1,5 @@
 """
+
 CIFAKE 数据集生成脚本
 - REAL：直接使用已下载的 CIFAR-10 图像
 - FAKE：使用 Stable Diffusion v1.5 为每张 CIFAR-10 图像生成 AI 合成版本
